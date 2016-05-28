@@ -1,0 +1,440 @@
+<resources>
+    <string name="app_name">Music Player</string>
+
+    <string-array name="songName_array">
+        <item>Abhi Mujh</item>
+        <item>Beautiful Girls</item>
+        <item>Dheere Dheere</item>
+        <item>Lonely</item>
+        <item>The Lazy song</item>
+        <item>Waiting for Tonight</item>
+        <item>Why not me</item>
+    </string-array>
+
+    <string-array name="artist_array">
+        <item>Sonu Nigam</item>
+        <item>Sean Kingston</item>
+        <item>Yo Yo Honey Singh</item>
+        <item>Akon</item>
+        <item>Bruno Mars</item>
+        <item>Jennifer Lopez</item>
+        <item>Enrique Iglesias</item>
+    </string-array>
+
+    <string-array name="length_array">
+        <item>4:29</item>
+        <item>4:18</item>
+        <item>5:04</item>
+        <item>4:25</item>
+        <item>3:28</item>
+        <item>4:10</item>
+        <item>3:41</item>
+    </string-array>
+
+    <string-array name="lyrics_array">
+        <item>Abhi mujh mein kahin
+Baaqi thodi si hai zindagi
+Jagi dhadkan nayi
+Jaana zinda hoon main toh abhi
+Kuch aisi lagan iss lamhe mein hai
+Ye lamha kahaan tha mera
+Ab hai saamne
+Issey chhoo loon zaraa
+Mar jaaoon ya jee loon zaraa
+Khushiyaan choom loon
+Yaa ro loo\’n zaraa
+Mar jaaun ya jee loon zaraa
+
+Ho o.. abhi mujh mein kahin
+Baaqi thodi si hai zindagi
+
+Ho.. dhoop mein jalte huey tann ko
+Chhaya perh ki mill gayee
+Roothe bachche ki hansi jaise
+Phuslaane se phir khill gayee
+Kuchh aisa hi abb mehsoos dil ko ho rahaa hai
+Barso\’n ke purane zakhm pe marham laga sa hai
+Kuch aisa rahem, iss lamhe mein hai
+Ye lamha kahaan tha mera
+Ab hai saamne
+Issey chhoo loon zara
+Mar jaaoon ya jee loon zara
+Khushiyaan choom loon
+Yaa ro loo\’n zaraa
+Mar jaaoo\’n yaa jee loon zaraa
+
+Dor se tooti patang jaisi, thi ye zindagani meri
+Aaj ho kal ho mera naa ho
+Har din thi kahani meri
+Ik bandhan naya peechhe se abb mujhko bulaaye
+Aane waley kal ki kyun fikar mujhko sata jaaye
+Ik aisi chubhan iss lamhe me hai
+Ye lamha kahaan tha mera aa
+Ab hai saamne
+Issey chhoo loon zara
+Mar jaaoo\’n ya jee loon zara
+Khushiyaan choom loon
+Yaa ro loo\’n zaraa
+Mar jaaoo\’n ya jee loon zara</item>
+        <item>You\'re way too beautiful girl
+That\'s why it\'ll never work
+You\'ll have me suicidal, suicidal
+When you say it\'s over
+Damn all these beautiful girls
+They only wanna do you dirt
+They\'ll have you suicidal, suicidal
+When they say it\'s over
+
+See it started at the park
+Used to chill after dark
+Oh when you took my heart
+That\'s when we fell apart
+Cause we both thought
+That love lasts forever (lasts forever)
+They say we\'re too young
+To get ourselves sprung
+Oh we didn\'t care
+We made it very clear
+And they also said
+That we couldn\'t last together (last together)
+
+See it\'s very define girl,
+One of a kind
+But you mash up my mind
+You have to get declined
+Oh Lord...
+My baby is driving me crazy
+
+It was back in \'99
+Watchin\' movies all the time
+Oh when I went away
+For doin\' my first crime
+And I never thought
+That we was gonna see each other (see each other)
+And then I came out
+Mami moved me down South
+Oh I\'m with my girl
+Who I thought was my world
+It came out to be
+That she wasn\'t the girl for me (girl for me)
+
+Now we\'re fussin\'
+And now we\'re fightin\'
+Please tell me why
+I\'m feelin\' slighted
+And I don\'t know
+How to make it better (make it better)
+You\'re datin\' other guys
+You\'re tellin\' me lies
+Oh I can\'t believe
+What I\'m seein\' with my eyes
+I\'m losin\' my mind
+And I don\'t think it\'s clever (think it\'s clever)</item>
+        <item>Har pal meriyaan yadaan
+Yadaan vich ae tun
+Dil di gal main dassa
+Te dassa fir kinnu (x2)
+
+Teri meri, meri teri ik jind\’di
+Ik jind\’di what to do
+Jhoomu main naachu main gaaun ke likhun
+Tere liye main kya karun
+
+Dheere dheere se meri zindagi mein aana
+Dheere dheere se dil ko churana (churana..)
+Tumse pyaar hume hai kitna jaane jaana
+Tumse mil kar tumko hai batana
+
+Sham wahi, kaam wahi
+Tere bina o sanam
+Neend nahi, chain nahi
+Tere bina o sanam (x2)
+
+Teri meri, meri teri ik jind\’di
+Ik jind\’di what to do?
+Jhoomu main nachu main gaaun ke likhun
+Tere liye main kya karun
+
+Dheere dheere se meri zindagi mein aana
+Dheere dheere se dil ko churana (churana..)
+Tumse pyaar hume hai kitna jaane jaana
+Tumse milkar tumko hai batana (x2)
+
+Yo Yo Honey Singh Rap
+Teri meri story jaise Big Bang Theory
+Main sunaun chori-chori ye sab ko
+Tu mujhse door main yahan pe majboor
+Shikva karun main ye Rabb ko (Rabb ko..)
+Ek din tum bin beete lage saal
+Mera hua bura haal
+Mera hua bura haal
+Haal kabhi apna mujhe to bataao na
+Aur laut kar wapas kabhi mere paas aao na
+
+Sota hoon kabhi rota hoon
+Tere bina o sanam
+Paa kar sab kuch khota hoon
+Tere bina o sanam (x2)
+
+Teri meri meri teri ik jind\’di
+Ik jind\’di what to do?
+Jhoomu main naachun gaaun ke likhun
+Tere liye main kya karun
+
+Dheere dheere se meri zindagi mein aana
+Dheere dheere se dil ko churana (churana..)
+Tumse pyaar humein hai kitna jaan-e-jaana
+Tumse mil kar tumko hai batana
+
+Tumse mil kar tumko hai batana
+Tumse mil kar tumko hai batana</item>
+        <item>Lonely, I\'m Mr. Lonely,
+I have nobody for my own
+I\'m so lonely, I\'m Mr. Lonely
+I have nobody for my own
+I\'m so lonely.
+
+Yo this one here goes out to all my players out there, man, ya know
+that got that one good girl who\'s always been there, man, like took all the bullshit
+then one day she can\'t take it no more and decide to leave
+
+I woke up in the middle of the night
+and I noticed my girl wasn\'t by my side,
+coulda sworn I was dreaming, for her I was feenin,
+so I had to take a little ride,
+back tracking over these few years,
+tryna figure out what I do to make it go bad,
+Cause ever since my girl left me my whole life came crashing
+
+I\'m so lonely (so lonely),
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own) girl
+I\'m so lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own) girl
+
+Can\'t believe I had a girl like you
+and I just let you walk right outta my life,
+after all I put you through
+you still stuck around and stayed by my side,
+what really hurt me is I broke your heart,
+baby, you were a good girl and I had no right,
+I really wanna make things right,
+Cause without you in my life girl
+
+I\'m so lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own) girl
+I\'m so lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own) girl
+
+Been all about the world ain\'t never met a girl
+that can take the things that you been through
+Never thought the day would come where you would get up and run
+and I would be out chasing you
+Cause ain\'t nowhere in the globe I\'d rather be,
+ain\'t no one in the globe I\'d rather see
+than the girl of my dreams that made me be
+so happy but now so lonely
+
+So lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own)
+I\'m so lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own) girl
+
+Never thought that I\'d be alone,
+I didn\'t think you\'d be gone this long,
+I just want you to call my phone,
+so stop playing girl and come on home (come on home),
+baby girl, I didn\'t mean to shout,
+I want me and you to work it out,
+I never wished I\'d ever hurt my baby,
+and it\'s driving me crazy
+Cause...
+
+I\'m so lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own)
+I\'m so lonely (so lonely)
+I\'m Mr. Lonely (Mr. Lonely)
+I have nobody (I have nobody)
+For my own (to call my own) girl
+
+Lonely, so lonely
+So lonely, (so lonely),
+Mr. Lonely, so lonely
+So lonely, so lonely (so lonely), Mr. Lonely</item>
+        <item>Today I don\'t feel like doing anything
+I just wanna lay in my bed
+Don\'t feel like picking up my phone
+So leave a message at the tone
+            Cause today I swear I\'m not doing anything
+
+Uh I\'m gonna kick my feet up and stare at the fan
+Turn the t.v. on
+Throw my hand in my pants
+Nobody\'s gon tell me I cant, no
+
+I\'ll be loungin on the couch just chillin in my snuggie
+Flip to MTV so they can teach me how to Dougie
+Cause in my castle I\'m the freakin man
+Oh
+
+Yes I said it
+I said it
+I said it cause I can
+Today I don\'t feel like doing anything
+I just wanna lay in my bed
+Don\'t feel like picking up my phone
+So leave a message at the tone
+Cause today I swear I\'m not doing anything
+
+Nothing at all
+Ooh hoo ooh hoo
+Hoo ooh ooh
+Nothing at all
+Ooh hoo ooh hoo
+Hoo ooh ooh
+
+Tomorrow I\'ll wake up do some
+Meet a really nice girl have some really nice sex
+And she\'s gonna scream out this is great
+
+I might mess around and get my college degree
+I bet my old man will be so proud of me
+But sorry pops you\'ll just have to wait
+Oh
+
+Yes I said it
+I said it
+I said it cause I can
+
+Today I don\'t feel like doing anything
+I just wanna lay in my bed
+Don\'t feel like picking up my phone
+So leave a message at the tone
+Cause today I swear I\'m not doing anything
+
+No I ain\'t gonna comb my hair
+Cause I ain\'t goin anywhere
+No no no no no no no no no oh
+I\'ll just strut in my birthday suit
+And let everything hang loose
+Yeah yeah yeah yeah yeah yeah yeah yeah yeah yeah
+
+Oh, today I don\'t feel like doing anything
+I just wanna lay in my bed
+Don\'t feel like picking up my phone
+So leave a message at the tone
+Cause today I swear I\'m not doing anything
+
+Nothing at all
+Ooh hoo ooh hoo
+Hoo ooh ooh
+Nothing at all
+Ooh hoo ooh hoo
+Hoo ooh ooh
+Nothing at all</item>
+        <item>Like a movie scene
+In the sweetest dreams
+I have pictured us together
+Now to feel your lips
+On my fingertips
+I have to say is even better
+Then I ever thought it could possibly be
+It\'s perfect, it\'s passion, it\'s setting me free
+From all of my sadness
+The tears that I\'ve cried
+I have spent all of my life
+
+Waiting for tonight, oh
+When you would be here in my arms
+Waiting for tonight, oh
+I\'ve dreamed of this love for so long
+Waiting for tonight
+
+Tender words you say
+Take my breath away
+Love me now, leave me never
+Found a sacred place
+Lost in your embrace
+I want to stay in this forever
+I think of the days when the sun used to set
+On my empty heart, all alone in my bed
+Tossing and turning
+Emotions were strong
+I knew I had to hold on
+
+Gone are the days when the sun used to set
+On my empty heart all alone in my bed
+Tossing and turning
+Emotions were strong
+I knew I had to hold on
+</item><item>Escaping nights without you with shadows on the wall
+My mind is running wild trying hard not to fall
+You tell me that you love me but say I\'m just a friend
+My heart is broken up into pieces
+Cause I know I\'ll never free my soul
+It\'s trapped in between true love and being alone
+When my eyes are closed the greatest story told
+I woke and my dreams are shattered here on the floor
+
+Why oh why tell me why not me
+Why oh why we were meant to be
+Baby I know I could be all you need
+Why oh why oh why
+
+I wanna love you
+If you only knew how much I love you
+So why not me
+
+The day after tomorrow I\'ll still be around
+To catch you when you fall and never let you down
+You say that we\'re forever our love will never end
+I\'ve tried to come up but it\'s drowning me to know
+You\'ll never feel my soul
+It\'s trapped in between true love and being alone
+When my eyes are closed the greatest story told
+I woke and my dreams are shattered here on the floor
+
+Tell me baby...
+
+You won\'t ever know
+How far we can go (go)
+You won\'t ever know
+How far we can go (go)
+
+(why not me, why not me, why not me)</item>
+    </string-array>
+
+    <string-array name="image_array">
+        <item>sonu_nigam</item>
+        <item>seankingston</item>
+        <item>yo_yo_honey_singh</item>
+        <item>akon</item>
+        <item>bruno_mars</item>
+        <item>jennifer_lopez</item>
+        <item>enrique_iglesias</item>
+    </string-array>
+
+    <string-array name="song_array">
+        <item>abhi_mujh</item>
+        <item>beautiful_girls</item>
+        <item>dheere_dheere</item>
+        <item>lonely</item>
+        <item>the_lazy_song</item>
+        <item>waiting_for_tonight</item>
+        <item>why_not_me</item>
+    </string-array>
+
+</resources>
