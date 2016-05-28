@@ -1,7 +1,7 @@
 package com.example.android.musicplayer;
 
 /**
- * Contact
+ * Song
  *
  * @author gouthami.m
  */

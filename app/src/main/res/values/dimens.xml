@@ -2,5 +2,19 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-
+    <dimen name="player_activity_details_marginLeft">8dp</dimen>
+    <dimen name="player_activity_details_marginTop">4dp</dimen>
+    <dimen name="player_activity_text_size">15sp</dimen>
+    <dimen name="player_activity_lyrics_marginBottom">4dp</dimen>
+    <dimen name="player_activity_scrollView_marginRight">8dp</dimen>
+    <dimen name="player_activity_scrollView_marginBottom">8dp</dimen>
+    <dimen name="player_activity_relativelayout_marginLeft">8dp</dimen>
+    <dimen name="player_activity_details_textView_margin">12dp</dimen>
+    <dimen name="player_activity_linearLayout_elevation">10dp</dimen>
+    <dimen name="player_activity_imageButton_ff_rew_padding">4dp</dimen>
+    <dimen name="player_activity_imageButton_play_padding">8dp</dimen>
+    <dimen name="player_activity_imageButton_play_marginLeft">16dp</dimen>
+    <dimen name="player_activity_imageButton_play_marginRight">16dp</dimen>
+    <dimen name="player_activity_linearLayout_imageButtons_marginBottom">4dp</dimen>
+    <dimen name="player_activity_linearLayout_seekBar_marginBottom">8dp</dimen>
 </resources>
