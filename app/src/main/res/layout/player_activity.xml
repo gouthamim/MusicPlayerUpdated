@@ -37,27 +37,27 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="@dimen/player_activity_details_textView_margin"
                     android:fontFamily="sans-serif"
-                    android:textStyle="bold"
-                    android:textColor="#F44336"
                     android:text="Details"
-                    android:textSize="@dimen/player_activity_text_size" />
+                    android:textColor="#F44336"
+                    android:textSize="@dimen/player_activity_text_size"
+                    android:textStyle="bold" />
 
                 <TextView
-                    android:id="@+id/textViewID"
+                    android:id="@+id/songname_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/player_activity_details_marginLeft"
                     android:layout_marginTop="@dimen/player_activity_details_marginTop" />
 
                 <TextView
-                    android:id="@+id/textViewID1"
+                    android:id="@+id/songartist_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/player_activity_details_marginLeft"
                     android:layout_marginTop="@dimen/player_activity_details_marginTop" />
 
                 <TextView
-                    android:id="@+id/textViewID2"
+                    android:id="@+id/songduration_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/player_activity_details_marginLeft"
@@ -75,12 +75,12 @@
                 android:id="@+id/songLyrics"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Song lyrics"
+                android:layout_marginBottom="@dimen/player_activity_lyrics_marginBottom"
                 android:fontFamily="sans-serif"
+                android:text="Song lyrics"
                 android:textColor="#F44336"
-                android:textStyle="bold"
                 android:textSize="@dimen/player_activity_text_size"
-                android:layout_marginBottom="@dimen/player_activity_lyrics_marginBottom" />
+                android:textStyle="bold" />
 
             <ScrollView
                 android:layout_width="match_parent"
@@ -90,7 +90,7 @@
                 android:layout_marginRight="@dimen/player_activity_scrollView_marginRight">
 
                 <TextView
-                    android:id="@+id/songLyricsContent"
+                    android:id="@+id/songLyrics_textview"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentBottom="true" />
@@ -116,7 +116,9 @@
             <SeekBar
                 android:id="@+id/seekBar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:progressDrawable="@drawable/progress"
+                android:thumb="@drawable/thumb"/>
         </LinearLayout>
 
         <LinearLayout
