@@ -21,6 +21,7 @@ public class SimpleSongsViewAdapter extends RecyclerView.Adapter<SimpleSongsView
     private final List<Song> songs;
     private Context context;
 
+
     public SimpleSongsViewAdapter(Context context, List<Song> songs) {
         this.songs = songs;
         this.context = context;
@@ -33,8 +34,6 @@ public class SimpleSongsViewAdapter extends RecyclerView.Adapter<SimpleSongsView
             @Override
             public void onClick(View v) {
                 int position = (int) v.getTag();
-                // launch new activity
-                // and pass information to new activity
                 Intent i = new Intent(v.getContext(), PlayerActivity.class);
                 i.putExtra(PlayerActivity.POSITION, position);
                 v.getContext().startActivity(i);
@@ -49,19 +48,15 @@ public class SimpleSongsViewAdapter extends RecyclerView.Adapter<SimpleSongsView
 
         holder.itemView.setTag(position);
 
-        TextView textViewSongName = (TextView) holder.itemView.findViewById(R.id.song_name);
-        TextView textViewSongArtist = (TextView) holder.itemView.findViewById(R.id.song_artist);
-        TextView textViewSongLength = (TextView) holder.itemView.findViewById(R.id.song_length);
 
-        ImageView imageView = (ImageView) holder.itemView.findViewById(R.id.album_image);
 
         Song song = songs.get(position);
-        textViewSongName.setText(song.name);
-        textViewSongArtist.setText(song.artist);
-        textViewSongLength.setText(song.length);
+        holder.textViewSongName.setText(song.name);
+        holder.textViewSongArtist.setText(song.artist);
+        holder.textViewSongLength.setText(song.length);
         int i = Songs.getImageResId(context, song.image);
         if (i != -1) {
-            imageView.setImageResource(i);
+            holder.imageView.setImageResource(i);
         }
     }
 
@@ -72,9 +67,17 @@ public class SimpleSongsViewAdapter extends RecyclerView.Adapter<SimpleSongsView
 
     public static class SongViewHolder extends RecyclerView.ViewHolder {
 
+        public TextView textViewSongName;
+        public TextView textViewSongArtist;
+        public TextView textViewSongLength;
+        public ImageView imageView;
         public SongViewHolder(View itemView) {
             super(itemView);
 
+            textViewSongName = (TextView) itemView.findViewById(R.id.song_name);
+            textViewSongArtist = (TextView) itemView.findViewById(R.id.song_artist);
+            textViewSongLength = (TextView) itemView.findViewById(R.id.song_length);
+            imageView = (ImageView) itemView.findViewById(R.id.album_image);
         }
     }
 }

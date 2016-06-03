@@ -36,15 +36,19 @@ public class PlayerActivity extends AppCompatActivity {
         int position = getIntent().getIntExtra(POSITION, 0);
         Song song = Songs.get(getApplicationContext()).get(position);
 
-        TextView tv = ((TextView) findViewById(R.id.textViewID));
-        TextView tv1 = ((TextView) findViewById(R.id.textViewID1));
-        TextView tv2 = ((TextView) findViewById(R.id.textViewID2));
-        TextView tv3 = ((TextView) findViewById(R.id.songLyricsContent));
+        TextView songName = ((TextView) findViewById(R.id.songname_textview));
+        TextView songArtist = ((TextView) findViewById(R.id.songartist_textview));
+        TextView songDuration = ((TextView) findViewById(R.id.songduration_textview));
+        TextView songLyrics = ((TextView) findViewById(R.id.songLyrics_textview));
 
-        tv.setText(song.name);
-        tv1.setText(song.artist);
-        tv2.setText(song.length);
-        tv3.setText(song.lyrics);
+        if(songName != null)
+        songName.setText(song.name);
+        if(songArtist != null)
+        songArtist.setText(song.artist);
+        if(songDuration != null)
+        songDuration.setText(song.length);
+        if(songLyrics != null)
+        songLyrics.setText(song.lyrics);
 
 
         //To enable the back action on toolbar
@@ -60,6 +64,7 @@ public class PlayerActivity extends AppCompatActivity {
         }
 
         SeekBar = (SeekBar) findViewById(R.id.seekBar);
+        SeekBar.setEnabled(false);
         final ImageButton button = (ImageButton) findViewById(R.id.play);
         int songId = Songs.getNameResId(getApplicationContext(), song.song);
 
@@ -93,6 +98,7 @@ public class PlayerActivity extends AppCompatActivity {
                         SeekBar.setProgress(0);
                         progressBarValue = 0;
                         isStart = false;
+
                     } else {
                         progressBarValue = progressBarValue + 500;
                         SeekBar.setProgress(progressBarValue);
@@ -157,7 +163,9 @@ public class PlayerActivity extends AppCompatActivity {
         }
     }
 
-    //Clicking the back button of the device pauses and stops the song playing
+    /**
+    **Clicking the back button of the device pauses and stops the song playing
+    **/
     @Override
     public void onBackPressed() {
         super.onBackPressed();
@@ -168,7 +176,9 @@ public class PlayerActivity extends AppCompatActivity {
         }
     }
 
-    //On click of the back button on the app bar pauses and stops the song and moves back to the previous activity
+    /**
+    *On click of the back button on the app bar pauses and stops the song and moves back to the previous activity
+     **/
     public boolean onOptionsItemSelected(MenuItem item) {
         if (mPlayer != null && mPlayer.isPlaying()) {
             mPlayer.pause();

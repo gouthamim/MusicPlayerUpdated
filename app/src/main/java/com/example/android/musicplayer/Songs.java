@@ -33,10 +33,22 @@ public class Songs {
         return songs;
     }
 
+    /**
+     * Method to fetch the photo of the artist
+     * @param context
+     * @param itemName
+     * @return
+     */
     public static int getImageResId(Context context, String itemName) {
         return context.getResources().getIdentifier(itemName, "drawable", context.getPackageName());
     }
 
+    /**
+     * Method to fetch the song name
+     * @param context
+     * @param itemName
+     * @return
+     */
     public static int getNameResId(Context context, String itemName) {
         return context.getResources().getIdentifier(itemName, "raw", context.getPackageName());
     }
