@@ -29,4 +29,10 @@
 
 (4)Run the project
 
+![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/screenshot1.png)
+
+![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/screenshot2.png)
+
+![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/screenshot3.png)
+
 
