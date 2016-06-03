@@ -35,10 +35,7 @@ Music Player
 
 This is an app used to play music and has features to fast forward or rewind the songs. Also have a feature of pausing and playing the song. 
 
-![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/screenshot1.png)
+![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/0011.png)
 
-![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/screenshot2.png)
-
-![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/screenshot3.png)
-
+![alt tag](https://github.com/gouthamim/MusicPlayerUpdated/blob/master/app/src/main/res/raw/0022.png)
 
